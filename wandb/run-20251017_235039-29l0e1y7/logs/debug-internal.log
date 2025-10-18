@@ -1,0 +1,15 @@
+{"time":"2025-10-17T23:50:39.4521498+09:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-17T23:50:39.9338829+09:00","level":"INFO","msg":"stream: created new stream","id":"29l0e1y7"}
+{"time":"2025-10-17T23:50:39.9338829+09:00","level":"INFO","msg":"handler: started","stream_id":"29l0e1y7"}
+{"time":"2025-10-17T23:50:39.9360502+09:00","level":"INFO","msg":"stream: started","id":"29l0e1y7"}
+{"time":"2025-10-17T23:50:39.9360502+09:00","level":"INFO","msg":"writer: started","stream_id":"29l0e1y7"}
+{"time":"2025-10-17T23:50:39.9360502+09:00","level":"INFO","msg":"sender: started","stream_id":"29l0e1y7"}
+{"time":"2025-10-17T23:51:02.1141576+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.0138677}],"total_operations":1}}
+{"time":"2025-10-17T23:51:02.2950527+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 29l0e1y7 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:51:02.3306913+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-10-17T23:51:02.3306913+09:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run my_model_training/29l0e1y7 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-10-17T23:51:04.6124172+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 29l0e1y7 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:51:09.5280333+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 29l0e1y7 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:51:11.3713487+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/sjhkoreatech-korea-university-of-technology-and-education/my_model_training/29l0e1y7/file_stream"}
+{"time":"2025-10-17T23:51:11.3713487+09:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/sjhkoreatech-korea-university-of-technology-and-education/my_model_training/29l0e1y7/file_stream: {\"error\":\"run my_model_training/29l0e1y7 not found while streaming file\"}"}
+{"time":"2025-10-17T23:51:19.5624409+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 29l0e1y7 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

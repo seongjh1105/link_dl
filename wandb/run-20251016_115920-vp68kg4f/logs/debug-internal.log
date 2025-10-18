@@ -1,0 +1,20 @@
+{"time":"2025-10-16T11:59:21.3540483+09:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-16T11:59:21.6593823+09:00","level":"INFO","msg":"stream: created new stream","id":"vp68kg4f"}
+{"time":"2025-10-16T11:59:21.6599313+09:00","level":"INFO","msg":"handler: started","stream_id":"vp68kg4f"}
+{"time":"2025-10-16T11:59:21.6619913+09:00","level":"INFO","msg":"stream: started","id":"vp68kg4f"}
+{"time":"2025-10-16T11:59:21.6625599+09:00","level":"INFO","msg":"writer: started","stream_id":"vp68kg4f"}
+{"time":"2025-10-16T11:59:21.6625599+09:00","level":"INFO","msg":"sender: started","stream_id":"vp68kg4f"}
+{"time":"2025-10-16T12:06:36.7530154+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/seongjh1105-korea-university-of-technology-and-education/my_model_training/vp68kg4f/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:06:38.9568159+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/seongjh1105-korea-university-of-technology-and-education/my_model_training/vp68kg4f/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:06:39.6258281+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:50:06.9487033+09:00","level":"WARN","msg":"sender: taking a long time","seconds":2607.3239657,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"qp94u7rn391v\" connection_id:\"1(127.0.0.1:63743)\")"}
+{"time":"2025-10-16T12:50:07.4104079+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/seongjh1105-korea-university-of-technology-and-education/my_model_training/vp68kg4f/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:50:07.4104079+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:50:11.4650786+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-16T12:50:19.8419573+09:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":2620.2172197,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"qp94u7rn391v\" connection_id:\"1(127.0.0.1:63743)\")"}
+{"time":"2025-10-16T13:05:49.9601417+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading console lines 44-44","runtime_seconds":0.0922945},{"desc":"updating run metadata","runtime_seconds":0.0044644}],"total_operations":2}}
+{"time":"2025-10-16T13:05:50.6969754+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-16T13:05:50.9569628+09:00","level":"INFO","msg":"stream: closing","id":"vp68kg4f"}
+{"time":"2025-10-16T13:05:50.9569628+09:00","level":"INFO","msg":"handler: closed","stream_id":"vp68kg4f"}
+{"time":"2025-10-16T13:05:50.9574746+09:00","level":"INFO","msg":"sender: closed","stream_id":"vp68kg4f"}
+{"time":"2025-10-16T13:05:50.9578162+09:00","level":"INFO","msg":"stream: closed","id":"vp68kg4f"}

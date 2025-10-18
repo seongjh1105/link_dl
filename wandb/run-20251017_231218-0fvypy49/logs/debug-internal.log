@@ -1,0 +1,18 @@
+{"time":"2025-10-17T23:12:19.076547+09:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-17T23:12:19.380665+09:00","level":"INFO","msg":"stream: created new stream","id":"0fvypy49"}
+{"time":"2025-10-17T23:12:19.3811863+09:00","level":"INFO","msg":"handler: started","stream_id":"0fvypy49"}
+{"time":"2025-10-17T23:12:19.3822356+09:00","level":"INFO","msg":"stream: started","id":"0fvypy49"}
+{"time":"2025-10-17T23:12:19.3822356+09:00","level":"INFO","msg":"writer: started","stream_id":"0fvypy49"}
+{"time":"2025-10-17T23:12:19.3822356+09:00","level":"INFO","msg":"sender: started","stream_id":"0fvypy49"}
+{"time":"2025-10-17T23:12:20.1059003+09:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":38}
+{"time":"2025-10-17T23:12:20.20809+09:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":10}
+{"time":"2025-10-17T23:17:05.4333952+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/sjhkoreatech-korea-university-of-technology-and-education/my_model_training/0fvypy49/file_stream"}
+{"time":"2025-10-17T23:17:05.4339065+09:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/sjhkoreatech-korea-university-of-technology-and-education/my_model_training/0fvypy49/file_stream: {\"error\":\"run my_model_training/0fvypy49 not found while streaming file\"}"}
+{"time":"2025-10-17T23:29:48.0854665+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.0063654}],"total_operations":1}}
+{"time":"2025-10-17T23:29:48.2767684+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0fvypy49 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:29:48.3000931+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-10-17T23:29:48.3000931+09:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run my_model_training/0fvypy49 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-10-17T23:29:50.8599458+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0fvypy49 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:29:55.1460102+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0fvypy49 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:30:03.7144452+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0fvypy49 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-10-17T23:30:24.0243814+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0fvypy49 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

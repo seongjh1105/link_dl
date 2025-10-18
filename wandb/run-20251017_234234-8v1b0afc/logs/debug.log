@@ -1,0 +1,6 @@
+2025-10-17 23:42:34,430 INFO    MainThread:20892 [wandb_init.py:setup_run_log_directory():705] Logging user logs to c:\Users\MASTER\git\link_dl\_03_homeworks\homework_2\wandb\run-20251017_234234-8v1b0afc\logs\debug.log
+2025-10-17 23:42:34,430 INFO    MainThread:20892 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to c:\Users\MASTER\git\link_dl\_03_homeworks\homework_2\wandb\run-20251017_234234-8v1b0afc\logs\debug-internal.log
+2025-10-17 23:42:34,431 INFO    MainThread:20892 [wandb_init.py:monkeypatch_ipython():624] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002629ACB5180>
+2025-10-17 23:42:34,431 INFO    MainThread:20892 [wandb_init.py:init():832] calling init triggers
+2025-10-17 23:42:34,432 INFO    MainThread:20892 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'batch_size': 16, 'learning_rate': 0.001, 'n_hidden_unit_list': [20, 20], '_wandb': {}}

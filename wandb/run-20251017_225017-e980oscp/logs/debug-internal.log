@@ -1,0 +1,14 @@
+{"time":"2025-10-17T22:50:18.8593674+09:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-17T22:50:19.1811572+09:00","level":"INFO","msg":"stream: created new stream","id":"e980oscp"}
+{"time":"2025-10-17T22:50:19.1811572+09:00","level":"INFO","msg":"handler: started","stream_id":"e980oscp"}
+{"time":"2025-10-17T22:50:19.1841943+09:00","level":"INFO","msg":"stream: started","id":"e980oscp"}
+{"time":"2025-10-17T22:50:19.1841943+09:00","level":"INFO","msg":"writer: started","stream_id":"e980oscp"}
+{"time":"2025-10-17T22:50:19.1841943+09:00","level":"INFO","msg":"sender: started","stream_id":"e980oscp"}
+{"time":"2025-10-17T22:50:20.376236+09:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":38}
+{"time":"2025-10-17T22:50:20.4538743+09:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":10}
+{"time":"2025-10-17T22:50:23.7044351+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":4.0438203}],"total_operations":1}}
+{"time":"2025-10-17T22:50:24.5635333+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-17T22:50:24.88574+09:00","level":"INFO","msg":"stream: closing","id":"e980oscp"}
+{"time":"2025-10-17T22:50:24.88574+09:00","level":"INFO","msg":"handler: closed","stream_id":"e980oscp"}
+{"time":"2025-10-17T22:50:24.88574+09:00","level":"INFO","msg":"sender: closed","stream_id":"e980oscp"}
+{"time":"2025-10-17T22:50:24.886248+09:00","level":"INFO","msg":"stream: closed","id":"e980oscp"}

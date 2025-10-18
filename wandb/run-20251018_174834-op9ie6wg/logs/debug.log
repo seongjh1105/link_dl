@@ -1,0 +1,22 @@
+2025-10-18 17:48:34,448 INFO    MainThread:3216 [wandb_init.py:setup_run_log_directory():705] Logging user logs to c:\Users\MASTER\git\link_dl\_03_homeworks\homework_2\wandb\run-20251018_174834-op9ie6wg\logs\debug.log
+2025-10-18 17:48:34,448 INFO    MainThread:3216 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to c:\Users\MASTER\git\link_dl\_03_homeworks\homework_2\wandb\run-20251018_174834-op9ie6wg\logs\debug-internal.log
+2025-10-18 17:48:34,449 INFO    MainThread:3216 [wandb_init.py:init():832] calling init triggers
+2025-10-18 17:48:34,449 INFO    MainThread:3216 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'batch_size': 16, 'learning_rate': 0.001, 'n_hidden_unit_list': [20, 20], '_wandb': {}}
+2025-10-18 17:48:35,841 INFO    MainThread:3216 [wandb_init.py:init():880] starting backend
+2025-10-18 17:48:35,841 INFO    MainThread:3216 [wandb_init.py:init():883] sending inform_init request
+2025-10-18 17:48:35,847 INFO    MainThread:3216 [wandb_init.py:init():891] backend started and connected
+2025-10-18 17:48:35,857 INFO    MainThread:3216 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-10-18 17:48:35,886 INFO    MainThread:3216 [wandb_init.py:init():961] updated telemetry
+2025-10-18 17:48:35,975 INFO    MainThread:3216 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-18 17:48:36,943 INFO    MainThread:3216 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-18 17:48:37,653 INFO    MainThread:3216 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-18 17:48:37,654 INFO    MainThread:3216 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-18 17:48:37,654 INFO    MainThread:3216 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-18 17:48:37,654 INFO    MainThread:3216 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-18 17:48:37,657 INFO    MainThread:3216 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-18 17:49:10,767 INFO    MainThread:3216 [wandb_run.py:_finish():2275] finishing run sjhkoreatech-korea-university-of-technology-and-education/my_model_training/op9ie6wg
+2025-10-18 17:49:10,771 INFO    MainThread:3216 [wandb_run.py:_atexit_cleanup():2474] got exitcode: 0
+2025-10-18 17:49:10,775 INFO    MainThread:3216 [wandb_run.py:_restore():2456] restore
+2025-10-18 17:49:10,776 INFO    MainThread:3216 [wandb_run.py:_restore():2462] restore done
+2025-10-18 17:49:12,557 INFO    MainThread:3216 [wandb_run.py:_footer_sync_info():3872] logging synced files
